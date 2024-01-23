@@ -1,0 +1,41 @@
+<!-- /////////////// ponto de partida add-edit-tarefas /////////////// -->
+
+<form>
+    <!-- entrada Tipo de Tarefa -->
+    <div class="mb-3">
+        <label for="tarefaTipoId" class="form-label">Tipo de Tarefa</label>   
+        <input type="text" class="form-control" name="tarefaTipoId" [(ngModel)]="tarefaTipoId" *ngIf="tarefa.id!=0" disabled>
+        <select name="tarefatipoId" id="tarefaTipoId" class="form-control" [(ngModel)]="tarefaTipoId" *ngIf="tarefa.id==0">
+            <option *ngFor="let tipo of tarefaTiposList$|async" [value]="tipo.id">
+                {{tipo.descricao}} 
+            </option>
+        </select>        
+    </div>
+
+    <!-- entrada Status da Tarefa -->
+    <div class="mb-3">
+        <label for="status" class="form-label">Status</label>
+        <select name="status" id="status" class="form-control" [(ngModel)]="status">
+            <option *ngFor="let status of statusList$|async" [value]="status.statusOpcao">
+                {{status.statusOpcao}}
+            </option>
+        </select>
+    </div>
+    
+    <!-- entrada Comentário da Tarefa -->
+    <div class="mb-3">
+        <label for="comentario" class="form-label">Comentário</label>        
+        <input type="text" class="form-control" [(ngModel)]="comentario" name="comentario">     
+    </div>    
+
+    <!-- botao Adicionar tarefa -->
+    <button (click)="addTarefa()" *ngIf="tarefa.id==0" class="btn btn-primary">
+        Adicionar
+    </button>
+
+    <!-- botao Atualizar entrada Tipo de Tarefa -->
+    <button (click)="updateTarefa()" *ngIf="tarefa.id!=0" class="btn btn-primary">
+        Atualizar
+    </button>    
+
+</form>

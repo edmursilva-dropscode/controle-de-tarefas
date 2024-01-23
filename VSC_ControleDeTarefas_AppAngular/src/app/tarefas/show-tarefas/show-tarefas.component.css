@@ -1,0 +1,27 @@
+/* configurando exibição dos alert */
+#add-success-alert,
+#update-success-alert,
+#delete-success-alert{
+    display: none;
+}
+
+/* configurando tempo de exibição dos alert */
+#add-success-alert,
+#update-success-alert,
+#delete-success-alert{
+    animation-name: fadeInAndOut;
+    animation-duration: 8s;
+}
+
+/* configurando keyframes do tempo de exibição dos alert */
+@-webkit-keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

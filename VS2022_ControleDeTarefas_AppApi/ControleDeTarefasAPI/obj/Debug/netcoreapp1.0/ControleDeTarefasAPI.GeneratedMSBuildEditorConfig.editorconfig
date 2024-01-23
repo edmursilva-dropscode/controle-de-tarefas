@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ControleDeTarefasAPI
+build_property.ProjectDir = C:\Edmur\Desenvolvimento\CSharp_Angular_Sistemas\ControleDeTarefas\ControleDeTarefas_VS2022\ControleDeTarefasAPIApp\ControleDeTarefasAPI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
