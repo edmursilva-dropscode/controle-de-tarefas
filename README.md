@@ -5,9 +5,9 @@
     <img src="./FotosTela/Foto01ControleDeTarefas.png">
 </h1>
 <br>
+
 ## Introdução
 O Sistema de Controle de Tarefas é uma aplicação desenvolvida para gerenciar tarefas, utilizando Angular 13 para o frontend, .NET Entity Framework 6 para o backend e SQL Server para o armazenamento de dados.
-
 ## Funcionalidades Principais
 CRUD de Tarefas: Permite criar, ler, atualizar e deletar tarefas.
 Gerenciamento de Tipos de Tarefa: Possibilita a criação e edição de diferentes tipos de tarefas.
