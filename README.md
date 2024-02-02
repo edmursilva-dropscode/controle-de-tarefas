@@ -1,5 +1,5 @@
 # Sistema de Controle de Tarefas 
-## ( C#, ASP, HTML, CSS, JAVASCRIPT, ANGULAR e BOOTSTRAP )
+## ( API, C#, ASP, HTML, CSS, JAVASCRIPT, ANGULAR e BOOTSTRAP )
 <br>
 <h1 align="center">
     <img src="./FotosTela/Foto01ControleDeTarefas.png">
