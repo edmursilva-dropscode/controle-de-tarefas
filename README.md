@@ -3,6 +3,8 @@
 <br>
 <h1 align="center">
     <img src="./FotosTela/Foto01ControleDeTarefas.png">
+    <br>
+    <img src="./FotosTela/Foto05ControleDeTarefas.png">
 </h1>
 <br>
 
