@@ -5,7 +5,10 @@
     <img src="./FotosTela/Foto01ControleDeTarefas.png">
     <br>
     <img src="./FotosTela/Foto05ControleDeTarefas.png">
+    <br>
+    <img src="./FotosTela/Foto02ControleDeTarefas.png">    
 </h1>
+
 <br>
 
 ## Introdução
